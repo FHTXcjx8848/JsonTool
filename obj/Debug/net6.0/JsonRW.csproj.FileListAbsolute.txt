@@ -1,0 +1,12 @@
+C:\Users\Administrator\Desktop\Git\JsonRW\bin\Debug\net6.0\JsonRW.deps.json
+C:\Users\Administrator\Desktop\Git\JsonRW\bin\Debug\net6.0\JsonRW.dll
+C:\Users\Administrator\Desktop\Git\JsonRW\bin\Debug\net6.0\JsonRW.pdb
+C:\Users\Administrator\Desktop\Git\JsonRW\obj\Debug\net6.0\JsonRW.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\Git\JsonRW\obj\Debug\net6.0\JsonRW.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\Git\JsonRW\obj\Debug\net6.0\JsonRW.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\Git\JsonRW\obj\Debug\net6.0\JsonRW.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\Git\JsonRW\obj\Debug\net6.0\JsonRW.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Git\JsonRW\obj\Debug\net6.0\JsonRW.dll
+C:\Users\Administrator\Desktop\Git\JsonRW\obj\Debug\net6.0\refint\JsonRW.dll
+C:\Users\Administrator\Desktop\Git\JsonRW\obj\Debug\net6.0\JsonRW.pdb
+C:\Users\Administrator\Desktop\Git\JsonRW\obj\Debug\net6.0\ref\JsonRW.dll
