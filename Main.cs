@@ -25,6 +25,8 @@ namespace JsonTool
     {
         public T ConfigObj { get; private set; }
         public string ConfigPath { get; private set; }
+        public event EventHandler<ErrorEventArgs> OnError;
+        public event EventHandler<CreatingEvent> OnCreating;
         public JsonRw(string path, T initialConfig)//有初始类
         {
             ConfigPath = Path.Combine(AppContext.BaseDirectory, path);
@@ -41,13 +43,21 @@ namespace JsonTool
         {
             return File.Exists(ConfigPath);
         }
+        protected virtual void ErrorOccurred(Exception ex)
+        {
+            OnError?.Invoke(this,new ErrorEventArgs(ex));
+        }
+        protected virtual void CreatingOccurred(string text)
+        {
+            OnCreating?.Invoke(this, new CreatingEvent(text));
+        }
         public void ReadConfig()
         {
             try
             {
                 if (!File.Exists(ConfigPath))
                 {
-                    //
+                    CreatingOccurred("未找到初始配置!为您生成默认配置...");
                 }
                 else
                 {
@@ -59,8 +69,9 @@ namespace JsonTool
                 }
                 WriteConfig();
             }
-            catch
+            catch(Exception ex)
             {
+                ErrorOccurred(ex);
             }
         }
         public void WriteConfig()
@@ -72,5 +83,13 @@ namespace JsonTool
                 streamWriter.Write(value);
             }
         }
+    }
+    public class CreatingEvent : EventArgs
+    {
+        public string Text { get; set; }
+        public CreatingEvent(string text)
+        {
+            Text = text;
+        }   
     }
 }
