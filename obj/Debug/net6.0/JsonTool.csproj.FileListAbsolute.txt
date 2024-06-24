@@ -10,3 +10,15 @@ C:\Users\Administrator\Desktop\Git\JsonRW\obj\Debug\net6.0\JsonTool.dll
 C:\Users\Administrator\Desktop\Git\JsonRW\obj\Debug\net6.0\refint\JsonTool.dll
 C:\Users\Administrator\Desktop\Git\JsonRW\obj\Debug\net6.0\JsonTool.pdb
 C:\Users\Administrator\Desktop\Git\JsonRW\obj\Debug\net6.0\ref\JsonTool.dll
+C:\Users\cjx01\Desktop\项目\CSharp\Bot\JsonTool\bin\Debug\net6.0\JsonTool.deps.json
+C:\Users\cjx01\Desktop\项目\CSharp\Bot\JsonTool\bin\Debug\net6.0\JsonTool.dll
+C:\Users\cjx01\Desktop\项目\CSharp\Bot\JsonTool\bin\Debug\net6.0\JsonTool.pdb
+C:\Users\cjx01\Desktop\项目\CSharp\Bot\JsonTool\obj\Debug\net6.0\JsonTool.csproj.AssemblyReference.cache
+C:\Users\cjx01\Desktop\项目\CSharp\Bot\JsonTool\obj\Debug\net6.0\JsonTool.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cjx01\Desktop\项目\CSharp\Bot\JsonTool\obj\Debug\net6.0\JsonTool.AssemblyInfoInputs.cache
+C:\Users\cjx01\Desktop\项目\CSharp\Bot\JsonTool\obj\Debug\net6.0\JsonTool.AssemblyInfo.cs
+C:\Users\cjx01\Desktop\项目\CSharp\Bot\JsonTool\obj\Debug\net6.0\JsonTool.csproj.CoreCompileInputs.cache
+C:\Users\cjx01\Desktop\项目\CSharp\Bot\JsonTool\obj\Debug\net6.0\JsonTool.dll
+C:\Users\cjx01\Desktop\项目\CSharp\Bot\JsonTool\obj\Debug\net6.0\refint\JsonTool.dll
+C:\Users\cjx01\Desktop\项目\CSharp\Bot\JsonTool\obj\Debug\net6.0\JsonTool.pdb
+C:\Users\cjx01\Desktop\项目\CSharp\Bot\JsonTool\obj\Debug\net6.0\ref\JsonTool.dll
